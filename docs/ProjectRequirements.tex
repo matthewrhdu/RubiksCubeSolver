@@ -1,0 +1,42 @@
+\documentclass[12pt]{article}
+\usepackage{enumitem}
+\usepackage[
+top=2.54cm,
+bottom=2.54cm,
+left=2.54cm,
+right=2.54cm,
+]{geometry}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage[yyyymmdd,hhmmss]{datetime}
+\usepackage{hyperref}
+
+\parskip=.2cm
+\parindent=0cm
+\pagestyle{fancy}
+\setlist{noitemsep}
+\hyphenpenalty=10000
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=black,
+	urlcolor=blue,
+	citecolor=blue,
+}
+
+\title{Project Requirements}
+\author{Matthew Du}
+
+\lfoot{\textsc{Matthew Du}}
+\rfoot{\textsc{Last Updated \today\ \currenttime}}
+
+\begin{document}
+	\maketitle
+	
+	\tableofcontents
+	
+	\newpage
+	
+	\input{sections/Introduction}
+\end{document}
