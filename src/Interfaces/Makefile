@@ -10,3 +10,6 @@ player : Player.cpp Player.hpp
 
 socket_tools : SocketTools.cpp SocketTools.hpp
 	${GCC} -c $<
+
+clear :
+	rm *.o

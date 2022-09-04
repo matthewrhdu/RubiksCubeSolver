@@ -30,6 +30,8 @@
 *.exe
 *.out
 *.app
+/src/controller_main
+/src/player_main
 
 # Latex
 *.aux
